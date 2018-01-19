@@ -270,6 +270,7 @@ export default class extends React.Component {
         style={ embedVideoStyle }>
         <iframe
           frameBorder='0'
+          allowFullScreen
           ref={el => {
             this._player = el;
           }}
