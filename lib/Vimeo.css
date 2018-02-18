@@ -18,6 +18,8 @@
 .vimeo-image {
   background-position: center center;
   background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 .vimeo-image:after {
   z-index: 1;
